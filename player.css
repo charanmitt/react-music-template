@@ -1,0 +1,66 @@
+.container
+{
+    height: 200px;
+    width: 500px;
+    border-radius: 1rem;
+    background-color: #101418;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.cont-img
+{
+    overflow: hidden;
+    object-fit: cover;
+    height: 170px;
+    width: 170px;
+    margin-left: 0.7rem;
+    margin-top: 0.8rem;
+    border: 2px;
+    border-radius: 1rem;
+}
+
+.cont-inner
+{
+    width: 300px;
+    height: 170px;
+    background-color: transparent;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.7rem;
+    margin-top: 0.8rem;
+    overflow: hidden;
+
+}
+
+.cont-icon
+{
+    width: 300px;
+    height:100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color:transparent;
+
+}
+
+.cont-title
+{
+    margin-top: 0;
+    margin-bottom: 1;
+}
+
+.cont-subtitle
+{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.i-1:hover, .i-2:hover,.i-3:hover,.i-4:hover
+{
+    cursor: pointer;
+    color: red;
+}
